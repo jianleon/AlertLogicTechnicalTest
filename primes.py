@@ -10,6 +10,12 @@ def is_prime(number):
     number: int
         Number to assert
 
+    Return
+    ------
+
+    boolean
+        True if number is prime
+
     """
     for num in range(2, number):
         if number % num == 0:
@@ -29,7 +35,7 @@ def get_primes(limit):
         Return
         ------
 
-        primes_list: list(int)
+        list(int)
             List with primes number in given limit.
 
     """
