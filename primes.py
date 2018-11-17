@@ -39,7 +39,7 @@ def get_primes(limit):
             List with primes number in given limit.
 
     """
-    primes_list = [number for number in range(2, limit + 1) if is_prime(number)]
-    return(primes_list)
+    return [number for number in range(2, limit + 1) if is_prime(number)]
+
 
 print(get_primes(100))
