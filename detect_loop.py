@@ -1,4 +1,4 @@
-""" Classes to detect a loop in a LinkedList """
+""" Classes to manage a LinkedList """
 
 
 class Node:
