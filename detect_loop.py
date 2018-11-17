@@ -44,7 +44,7 @@ class LinkedList:
             print(temp_list.info)
             temp_list = temp_list.ref
 
-    def detectLoop(self):
+    def detect_loop(self):
         """ Detects if a loop exists in the LinkedList
         
         Return
@@ -75,4 +75,4 @@ linked_list.print()
 # Creating a loop in list
 linked_list.root.ref.ref = linked_list.root
 
-print("Loop found in List!" if linked_list.detectLoop() else "No Loop found")
+print("Loop found in List!" if linked_list.detect_loop() else "No Loop found")
