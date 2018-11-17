@@ -45,15 +45,23 @@ class LinkedList:
             temp_list = temp_list.ref
 
     def detectLoop(self):
-        """ Detects if a loop exists in the LinkedList """
-        s = set()
-        temp = self.root
-        while (temp):
-            if (temp in s):
+        """ Detects if a loop exists in the LinkedList
+        
+        Return
+        ------
+
+        boolean
+            True if loop exists
+
+        """
+        temp_set = set()
+        temp_list = self.root
+        while (temp_list):
+            if (temp_list in temp_set):
                 return True
 
-            s.add(temp)
-            temp = temp.ref
+            temp_set.add(temp_list)
+            temp_list = temp_list.ref
 
         return False
 
