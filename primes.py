@@ -3,7 +3,7 @@
 
 def is_prime(number):
     """ Asserts if number is prime.
-    
+
     Parameter
     ---------
 
@@ -25,7 +25,7 @@ def is_prime(number):
 
 def get_primes(limit):
     """ Return a list with the primes numbers between 2 and 'limit'.
-        
+
         Parameter
         ---------
 
