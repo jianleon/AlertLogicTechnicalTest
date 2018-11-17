@@ -34,10 +34,15 @@ Code repository using `Github <https://github.com/jianleon/AlertLogicTechnicalTe
 	* Possible milestones
 
 	 	1- Create stress tests to servers and document the results when information is being extracted. (Stress tests must be made when server is being used and when it is not)
+
 	 	2- Using documentation as guide. Define a serie of SQL queries for extract information from servers (Possibly SELECT * with defined limit). As a result, document the structure found in the tables fields from servers. (Depending of the team size, we can destinate some devs for each server)
+
 	 	3- According with the result of the possible server structure. Start coding a code that process the possible fields that can be find in queries. Exclude or clean data with missing information. Execute code extracting maximum data that can be get in a simple request. This will be a good sample of all the possible cases to validate its format. After data validation, we can insert in our local database.
+
 	 	4- Define a log and a notification system to advice when a no considered case is found.
+
 	 	5- Define a schedule job for data extraction considering the results in the stress tests. (Data should start being extracted from the oldest to the newest) This can be made with unix crontab.
+
 	 	6- Monitor the db actual state for asserting that is being pull correctly.
 
 	 * Considerations
