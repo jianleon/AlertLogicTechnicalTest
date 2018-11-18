@@ -5,9 +5,8 @@
 1. Language choosed - Python 3 (List prime numbers between 2 an 100)
 
 2. Detect a loop in a LinkedList
-2.a.  Function for doing this without memory consumption for this case,
-      must consider validation for a possible loops before insertion of new nodes. 
-      Likewise, protect the way the "ref" values are accessed for preventing loops.
+
+2.a. Function for doing this without memory consumption for this case, must consider validation for a possible loops before insertion of new nodes. Likewise, protect the way the "ref" values are accessed for preventing loops.
 
 Code repository using `Github <https://github.com/jianleon/AlertLogicTechnicalTest>`_.
 
