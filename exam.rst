@@ -10,9 +10,7 @@
 
 Code repository using `Github <https://github.com/jianleon/AlertLogicTechnicalTest>`_.
 
-3. Considering the information granted and the main goal of the project:
-
-	We must consider in this case:
+3. Considering the information granted and the main goal of the project, we must consider for this case:
 
 	* Server capacity for data extraction
 
