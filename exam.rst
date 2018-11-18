@@ -2,15 +2,15 @@
  Senior Software Engineer Technical Test
 =========================================
 
-1. Language choosed - Python 3 (List prime numbers between 2 an 100)
+#. Language choosed - Python 3 (List prime numbers between 2 an 100)
 
-2. Detect a loop in a LinkedList
+#. Detect a loop in a LinkedList
 
-2.a. Function for doing this without memory consumption for this case, must consider validation for a possible loops before insertion of new nodes. Likewise, protect the way the "ref" values are accessed for preventing loops.
+* Function for doing this without memory consumption for this case, must consider validation for a possible loops before insertion of new nodes. Likewise, protect the way the "ref" values are accessed for preventing loops.
 
 Code repository using `Github <https://github.com/jianleon/AlertLogicTechnicalTest>`_.
 
-3. Considering the information granted and the main goal of the project, we must consider for this case:
+#. Considering the information granted and the main goal of the project, we must consider for this case:
 
 * Server capacity for data extraction
 
